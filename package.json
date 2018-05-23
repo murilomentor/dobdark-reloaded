@@ -1,0 +1,23 @@
+{
+    "name": "dobdark-reloaded",
+    "displayName": "Dobdark-Reloaded",
+    "description": "The awesome Dobdark theme from Sublime Text",
+    "version": "0.0.1",
+    "publisher": "murilofarias",
+    "icon": "dobdark-reloaded-theme.png",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dobdark Reloaded",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dobdark Reloaded-color-theme.json"
+            }
+        ]
+    }
+}
