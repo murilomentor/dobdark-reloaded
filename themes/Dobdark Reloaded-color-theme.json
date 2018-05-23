@@ -2,16 +2,10 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"background": "#222222",
-				"foreground": "#D7D7D7",
-				"gutter": "#222222",
 				"searchHighlight": "#00000082",
 				"multiEditHighlight": "#000000",
-				"bracketHighlight": "#296D1B82",
 				"findHighlight": "#FFE792",
 				"findHighlightForeground": "#000000",
-				"stackGuide": "#5a7b92",
-				"activeGuide": "#ffc60050"
 			}
 		},
 		{
@@ -509,12 +503,23 @@
 	],
 	"colors": {
 		"editor.background": "#222222",
-		"editorCursor.foreground": "#A5A5A5",
 		"editor.foreground": "#D7D7D7",
+		"editorCursor.background": "#222222",
+		"editorCursor.foreground": "#A5A5A5",
 		"editorWhitespace.foreground": "#15151582",
+		"editorLineNumber.foreground": "#616161",
+		"editorLineNumber.activeForeground": "#A1A1A1",
 		"editor.lineHighlightBackground": "#00000031",
 		"editor.selectionBackground": "#494949",
-		"editorIndentGuide.background": "#3b5364"
+		"editorIndentGuide.background": "#3b5364",
+		"editorIndentGuide.activeBackground": "#6992CC",
+		"editorBracketMatch.background": "#F92672",
+		"editorBracketMatch.border": "#D7D7D7",
+		"editorGutter.background": "#222222",
+		"statusBar.background": "#007ACC",
+		"statusBar.foreground": "#FFFFFF",
+		"statusBar.debuggingBackground": "#CF6A4C",
+		"statusBar.debuggingForeground": "#FFFFFF",
 	},
 	"name": "Dobdark Reloaded"
 }
