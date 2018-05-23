@@ -1,19 +1,10 @@
 {
 	"tokenColors": [
 		{
-			"settings": {
-				"searchHighlight": "#00000082",
-				"multiEditHighlight": "#000000",
-				"findHighlight": "#FFE792",
-				"findHighlightForeground": "#000000",
-			}
-		},
-		{
 			"name": "warning",
 			"scope": "warning",
 			"settings": {
-				"foreground": "#FFFFFF",
-				"background": "#FF9300"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -111,26 +102,6 @@
 			}
 		},
 		{
-			"name": "Invalid – Illegal",
-			"scope": "invalid.illegal",
-			"settings": {
-				"background": "#D20000BF",
-				"foreground": "#F8F8F8"
-			}
-		},
-		{
-			"name": "Invalid",
-			"scope": "invalid",
-			"settings": {
-				"background": "#D20000",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "-----------------------------------",
-			"settings": {}
-		},
-		{
 			"name": "♦ Entity inherited-class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
@@ -142,8 +113,7 @@
 			"name": "♦ String embedded-source",
 			"scope": "string source",
 			"settings": {
-				"foreground": "#D7D7D7",
-				"background": "#1C1C1C"
+				"foreground": "#D7D7D7"
 			}
 		},
 		{
@@ -230,8 +200,7 @@
 		{
 			"name": "✘ Entity.name.function",
 			"settings": {
-				"foreground": "#FFFFFF",
-				"background": "#1C1C1C"
+				"foreground": "#FFFFFF"
 			},
 			"scope": [
 				"entity.name.function",
@@ -371,7 +340,6 @@
 				"meta.separator"
 			],
 			"settings": {
-				"background": "#0E2231",
 				"fontStyle": "italic",
 				"foreground": "#F8F8F8"
 			}
@@ -380,7 +348,6 @@
 			"name": "⎇ diff.deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"background": "#420E09",
 				"foreground": "#F8F8F8"
 			}
 		},
@@ -388,7 +355,6 @@
 			"name": "⎇ diff.changed",
 			"scope": "markup.changed",
 			"settings": {
-				"background": "#4A410D",
 				"foreground": "#F8F8F8"
 			}
 		},
@@ -396,7 +362,6 @@
 			"name": "⎇ diff.inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"background": "#253B22",
 				"foreground": "#F8F8F8"
 			}
 		},
@@ -455,13 +420,6 @@
 			"scope": "markup.bold"
 		},
 		{
-			"name": "Markup: raw (code)",
-			"settings": {
-				"background": "#373737"
-			},
-			"scope": "markup.raw"
-		},
-		{
 			"name": "$sass.misc",
 			"settings": {
 				"foreground": "#999999"
@@ -513,13 +471,13 @@
 		"editor.selectionBackground": "#494949",
 		"editorIndentGuide.background": "#3b5364",
 		"editorIndentGuide.activeBackground": "#6992CC",
-		"editorBracketMatch.background": "#F92672",
-		"editorBracketMatch.border": "#D7D7D7",
+		"editorBracketMatch.background": "#ff00ea54",
+		"editorBracketMatch.border": "#ff00ea54",
 		"editorGutter.background": "#222222",
 		"statusBar.background": "#007ACC",
 		"statusBar.foreground": "#FFFFFF",
 		"statusBar.debuggingBackground": "#CF6A4C",
-		"statusBar.debuggingForeground": "#FFFFFF",
+		"statusBar.debuggingForeground": "#FFFFFF"
 	},
 	"name": "Dobdark Reloaded"
 }

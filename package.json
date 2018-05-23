@@ -7,7 +7,7 @@
     "license": "MIT",
     "icon": "dobdark-reloaded-theme.png",
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.18.0"
     },
     "categories": [
         "Themes"
