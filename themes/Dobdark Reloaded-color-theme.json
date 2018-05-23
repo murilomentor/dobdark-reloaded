@@ -486,59 +486,6 @@
 			"scope": "source.scss keyword.control.at-rule"
 		},
 		{
-			"name": "SublimeLinter Annotations",
-			"scope": "sublimelinter.notes",
-			"settings": {
-				"background": "#FFFFAA",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Error Outline",
-			"scope": "sublimelinter.outline.illegal",
-			"settings": {
-				"background": "#FF4A52",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Error Underline",
-			"scope": "sublimelinter.underline.illegal",
-			"settings": {
-				"background": "#FF0000"
-			}
-		},
-		{
-			"name": "SublimeLinter Warning Outline",
-			"scope": "sublimelinter.outline.warning",
-			"settings": {
-				"background": "#DF9400",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Warning Underline",
-			"scope": "sublimelinter.underline.warning",
-			"settings": {
-				"background": "#FF0000"
-			}
-		},
-		{
-			"name": "SublimeLinter Violation Outline",
-			"scope": "sublimelinter.outline.violation",
-			"settings": {
-				"background": "#ffffff33",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "SublimeLinter Violation Underline",
-			"scope": "sublimelinter.underline.violation",
-			"settings": {
-				"background": "#FF0000"
-			}
-		},
-		{
 			"name": "GitGutter deleted",
 			"scope": "markup.deleted.git_gutter",
 			"settings": {
