@@ -1,9 +1,10 @@
 {
     "name": "dobdark-reloaded",
     "displayName": "Dobdark-Reloaded",
-    "description": "The awesome Dobdark theme from Sublime Text",
+    "description": "The awesome Dobdark theme from Sublime Text, now for VS Code!",
     "version": "0.0.1",
     "publisher": "murilofarias",
+    "license": "MIT",
     "icon": "dobdark-reloaded-theme.png",
     "engines": {
         "vscode": "^1.23.0"
@@ -11,6 +12,21 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"theme",
+		"dobdark",
+		"dark",
+		"comfortable",
+		"colorful"
+	],
+    "bugs": {
+		"url": "https://github.com/murilomentor/dobdark-reloaded/issues"
+	},
+	"homepage": "https://github.com/murilomentor/dobdark-reloaded",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/murilomentor/dobdark-reloaded"
+	},
     "contributes": {
         "themes": [
             {
