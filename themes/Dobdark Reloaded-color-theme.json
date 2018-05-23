@@ -8,8 +8,29 @@
 			}
 		},
 		{
+			"name": "Emphasis",
+			"scope": "emphasis, markup.italic",
+			"settings": {
+			  "fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Strong",
+			"scope": "strong, markup.bold",
+			"settings": {
+			  "fontStyle": "bold"
+			}
+    },
+    {
+      "name": "Underline",
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+		{
 			"name": "Comment",
-			"scope": "comment",
+			"scope": "comment, punctuation.definition.comment, string.quoted.docstring",
 			"settings": {
 				"foreground": "#666666"
 			}
@@ -72,12 +93,40 @@
 		},
 		{
 			"name": "String",
-			"scope": "string",
+			"scope": "string, meta.structure.dictionary.json, string.quoted.double.json",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#00CC33"
 			}
-		},
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric, support.constant",
+      "settings": {
+        "foreground": "#5af78e"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "#5af78e"
+      }
+    },
+    {
+      "name": "Null",
+      "scope": "constant.language.null",
+      "settings": {
+        "foreground": "#5af78e"
+      }
+    },
+    {
+      "name": "Undefined",
+      "scope": "constant.language.undefined",
+      "settings": {
+        "foreground": "#5af78e"
+      }
+    },
 		{
 			"name": "Support",
 			"scope": "support",
@@ -469,12 +518,12 @@
 		"editorLineNumber.activeForeground": "#A1A1A1",
 		"editor.lineHighlightBackground": "#00000031",
 		"editor.selectionBackground": "#494949",
-		"editorIndentGuide.background": "#3b5364",
-		"editorIndentGuide.activeBackground": "#6992CC",
-		"editorBracketMatch.background": "#ff00ea54",
-		"editorBracketMatch.border": "#ff00ea54",
+		"editorIndentGuide.background": "#2d3e4b",
+		"editorIndentGuide.activeBackground": "#445b7a",
+		"editorBracketMatch.background": "#ffc40060",
+		"editorBracketMatch.border": "#ffc40060",
 		"editorGutter.background": "#222222",
-		"statusBar.background": "#007ACC",
+		"statusBar.background": "#5d00aa",
 		"statusBar.foreground": "#FFFFFF",
 		"statusBar.debuggingBackground": "#CF6A4C",
 		"statusBar.debuggingForeground": "#FFFFFF"
