@@ -4,7 +4,7 @@
       "name": "warning",
       "scope": "warning",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -47,7 +47,7 @@
       "scope": "entity",
       "settings": {
         "fontStyle": "",
-        "foreground": "#F4E848"
+        "foreground": "#02C48E"
       }
     },
     {
@@ -66,7 +66,9 @@
       "scope": [
         "keyword.operator",
         "punctuation.separator",
-        "puctuation"
+        "puctuation",
+        "source.js keyword.operator",
+        "source.js keyword.operator.module"
       ]
     },
     {
@@ -110,7 +112,7 @@
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#5AF7BB"
+        "foreground": "#00CCFF"
       }
     },
     {
@@ -151,7 +153,7 @@
       }
     },
     {
-      "name": "♦ Entity inherited-class",
+      "name": "* Entity inherited-class",
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "italic",
@@ -159,14 +161,14 @@
       }
     },
     {
-      "name": "♦ String embedded-source",
+      "name": "* String embedded-source",
       "scope": "string source",
       "settings": {
         "foreground": "#D7D7D7"
       }
     },
     {
-      "name": "♦ String.regexp",
+      "name": "* String.regexp",
       "scope": "string.regexp",
       "settings": {
         "fontStyle": "",
@@ -174,7 +176,7 @@
       }
     },
     {
-      "name": "♦ String.regexp.«special»",
+      "name": "* String.regexp.«special»",
       "scope": [
         "string.regexp constant.character.escape",
         "string.regexp source.ruby.embedded",
@@ -185,7 +187,7 @@
       }
     },
     {
-      "name": "♦ Support.function",
+      "name": "* Support.function",
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
@@ -193,7 +195,7 @@
       }
     },
     {
-      "name": "♦ Support.constant",
+      "name": "* Support.constant",
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
@@ -215,7 +217,7 @@
       }
     },
     {
-      "name": "✘ Doctype/XML Processing",
+      "name": "x Doctype/XML Processing",
       "scope": [
         "meta.tag.sgml.doctype",
         "meta.tag.sgml.doctype entity",
@@ -228,36 +230,8 @@
         "foreground": "#7D7D7D"
       }
     },
-    {
-      "name": "✘ Meta.tag.«all»",
-      "scope": [
-        "declaration.tag",
-        "meta.tag",
-        "entity.name"
-      ],
-      "settings": {
-        "foreground": "#838383"
-      }
-    },
-    {
-      "name": "✘ Entity.other",
-      "settings": {
-        "foreground": "#BEBEBE"
-      },
-      "scope": "entity.other"
-    },
-    {
-      "name": "✘ Entity.name.function",
-      "settings": {
-        "foreground": "#FFFFFF"
-      },
-      "scope": [
-        "entity.name.function",
-        "entity.name.type.class"
-      ]
-    },
-    {
-      "name": "✘ Meta.tag.inline",
+		{
+			"name": "x Tags",
       "scope": [
         "declaration.tag.inline",
         "declaration.tag.inline entity",
@@ -267,11 +241,43 @@
         "meta.tag.inline entity"
       ],
       "settings": {
-        "foreground": "#808080"
-      }
+				"foreground": "#9C67D8"
+			}
     },
+		{
+			"name": "x Separator",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.xml",
+        "punctuation.definition.tag.end.xml",
+        "meta.tag.structure.any.xml",
+        "meta.tag.structure.any.html",
+        "meta.tag.block.any.html"
+      ],
+      "settings": {
+				"foreground": "#9C67D8"
+			}
+    },
+		{
+			"name": "x Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#fd8b19"
+			}
+		},
+		{
+			"name": "x Attribute IDs",
+			"scope": [
+				"entity.other.attribute-name.id",
+				"punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#1290bf"
+			}
+		},
     {
-      "name": "§ css tag-name",
+      "name": "s css tag-name",
       "scope": [
         "entity.name.tag.css",
         "entity.name.tag.haml",
@@ -283,7 +289,7 @@
       }
     },
     {
-      "name": "§ css source",
+      "name": "s css source",
       "settings": {
         "foreground": "#808080"
       },
@@ -294,14 +300,14 @@
       ]
     },
     {
-      "name": "§ css:pseudo-class",
+      "name": "s css:pseudo-class",
       "scope": "meta.selector.css entity.other.attribute-name.tag.pseudo-class",
       "settings": {
         "foreground": "#8F9D6A"
       }
     },
     {
-      "name": "§ css#id",
+      "name": "s css#id",
       "scope": [
         "entity.other.attribute-name.id",
         "entity.name.tag.id.haml"
@@ -311,7 +317,7 @@
       }
     },
     {
-      "name": "§ css.unit",
+      "name": "s css.unit",
       "settings": {
         "foreground": "#008C23"
       },
@@ -322,7 +328,7 @@
       ]
     },
     {
-      "name": "§ css.class",
+      "name": "s css.class",
       "scope": [
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
@@ -333,7 +339,7 @@
       }
     },
     {
-      "name": "§ css property-name:",
+      "name": "s css property-name:",
       "scope": [
         "support.type.property-name.css",
         "meta.property-name.css"
@@ -343,7 +349,7 @@
       }
     },
     {
-      "name": "§ css property-value;",
+      "name": "s css property-value;",
       "scope": [
         "meta.property-group support.constant.property-value.css",
         "meta.property-value support.constant.property-value.css",
@@ -354,7 +360,7 @@
       }
     },
     {
-      "name": "§ css @at-rule",
+      "name": "s css @at-rule",
       "scope": [
         "meta.preprocessor.at-rule keyword.control.at-rule",
         "keyword.control.at-rule"
@@ -364,7 +370,7 @@
       }
     },
     {
-      "name": "§ css additional-constants",
+      "name": "s css additional-constants",
       "scope": [
         "meta.property-value support.constant.named-color.css",
         "meta.property-value constant",
@@ -375,14 +381,14 @@
       }
     },
     {
-      "name": "§ css constructor.argument",
+      "name": "s css constructor.argument",
       "scope": "meta.constructor.argument.css",
       "settings": {
         "foreground": "#8F9D6A"
       }
     },
     {
-      "name": "⎇ diff.header",
+      "name": "v diff.header",
       "scope": [
         "meta.diff",
         "meta.diff.header",
@@ -394,21 +400,21 @@
       }
     },
     {
-      "name": "⎇ diff.deleted",
+      "name": "v diff.deleted",
       "scope": "markup.deleted",
       "settings": {
         "foreground": "#F8F8F8"
       }
     },
     {
-      "name": "⎇ diff.changed",
+      "name": "v diff.changed",
       "scope": "markup.changed",
       "settings": {
         "foreground": "#F8F8F8"
       }
     },
     {
-      "name": "⎇ diff.inserted",
+      "name": "v diff.inserted",
       "scope": "markup.inserted",
       "settings": {
         "foreground": "#F8F8F8"
