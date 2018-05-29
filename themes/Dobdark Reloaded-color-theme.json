@@ -47,7 +47,7 @@
       "scope": "entity",
       "settings": {
         "fontStyle": "",
-        "foreground": "#02C48E"
+        "foreground": "#EAEAEA"
       }
     },
     {
@@ -256,7 +256,7 @@
         "meta.tag.block.any.html"
       ],
       "settings": {
-				"foreground": "#9C67D8"
+				"foreground": "#D7D7D7"
 			}
     },
 		{
